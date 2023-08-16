@@ -1,207 +1,288 @@
-<!doctype html>
-<html>
+<!DOCTYPE html>
+<html lang="en-US">
   <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <title>Workshop Data Science With Python</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <link rel="stylesheet" href="stylesheets/styles.css">
-    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
-    <meta name="viewport" content="width=device-width">
+<!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Workshop Data Science With Python</title>
+<meta name="generator" content="Jekyll v3.9.2" />
+<meta property="og:title" content="Course setup" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Specialist course Doctoral schools of Ghent University" />
+<meta property="og:description" content="Specialist course Doctoral schools of Ghent University" />
+<link rel="canonical" href="https://jorisvandenbossche.github.io/DS-python-data-analysis/setup.html" />
+<meta property="og:url" content="https://jorisvandenbossche.github.io/DS-python-data-analysis/setup.html" />
+<meta property="og:site_name" content="Data manipulation, analysis and visualisation in Python" />
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Course setup" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebPage","description":"Workshop Data Science With Python","headline":"Course setup","url":"https://github.com/simonperneel/DS-python-data-analysis"}</script>
+<!-- End Jekyll SEO tag -->
+
+    <link rel="stylesheet" href="/stylesheets/styles.css">
     <!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
     <![endif]-->
+    <!-- start custom head snippets, customize with your own _includes/head-custom.html file -->
+
+<!-- Setup Google Analytics -->
+
+
+
+<!-- You can set your favicon here -->
+<!-- link rel="shortcut icon" type="image/x-icon" href="/DS-python-data-analysis/favicon.ico" -->
+
+<!-- end custom head snippets -->
+
   </head>
   <body>
     <div class="wrapper">
       <header>
-        <h1>Data Science With Python</h1>
+        <h1><a href="stylesheets/styles.css/">Data manipulation, analysis and visualisation in Python</a></h1>
+
+        
+
         <p>Workshop UWC</p>
-        <p class="view"><a href="https://github.com/simonperneel/DS-python-data-analysis">View the Project on GitHub <small>orderedlist/minimal</small></a></p>
-        <ul>
-          <li><a href="https://github.com/simonperneel/DS-python-data-analysis/zipball/master">Download <strong>ZIP File</strong></a></li>
-          <li><a href="https://github.com/simonperneel/DS-python-data-analysis/tarball/master">Download <strong>TAR Ball</strong></a></li>
-          <li><a href="https://github.com/simonperneel/DS-python-data-analysis">Fork On <strong>GitHub</strong></a></li>
+
+        
+        <p class="view"><a href="https://github.com/simonperneel/DS-python-data-analysis">View the Project on GitHub <small>https://github.com/simonperneel/DS-python-data-analysis</small></a></p>
+        
+
+        
+
+        
+        <ul class="downloads">
+          <li><a href="https://github.com/simonperneel/DS-python-data-analysis/zipball/main">Download <strong>ZIP File</strong></a></li>
+          <li><a href="https://github.com/simonperneel/DS-python-data-analysis/tarball/main">Download <strong>TAR Ball</strong></a></li>
+          <li><a href="https://github.com/simonperneel/DS-python-data-analysis">View On <strong>GitHub</strong></a></li>
         </ul>
+        
       </header>
       <section>
-        <h1>GitHub Flavored Markdown</h1>
 
-        <p><em>View the <a href="http://github.github.com/github-flavored-markdown/sample_content.html">source of this content</a>.</em></p>
+      <h1 id="course-setup">Course setup</h1>
 
-        <p>Let's get the whole "linebreak" thing out of the way. The next paragraph contains two phrases separated by a single newline character:</p>
+<p>To get started, you should have the following three elements setup:</p>
 
-        <p>Roses are red<br>
-        Violets are blue</p>
+<ol>
+  <li>Install Python and the required Python packages</li>
+  <li>Download the course material to your computer</li>
+  <li>Test your configuration and installation</li>
+  <li>Start Jupyter lab</li>
+</ol>
 
-        <p>The next paragraph has the same phrases, but now they are separated by two spaces and a newline character:</p>
+<p>In the following sections, more details are provided for each of these steps. When all three are done, you are ready to start coding!</p>
 
-        <p>Roses are red<br><br>
-        Violets are blue</p>
+<h2 id="1-before-the-course-install-python-and-the-required-python-packages">1. (<em>before the course</em>) Install Python and the required Python packages</h2>
 
-        <p>Oh, and one thing I cannot stand is the mangling of words with multiple underscores in them like perform_complicated_task or do_this_and_do_that_and_another_thing.</p>
+<p>For scientific and data analysis, we recommend to use Anaconda (or Miniconda) (<a href="https://www.anaconda.com/download/">https://www.anaconda.com/download/</a>), which provides a Python
+distribution that includes the scientific libraries (this recommendation applies to all platforms, so for both Windows, Linux and Mac),
+instead of installing Python as such. After installation, proceed with the setup.</p>
 
-        <h2>A bit of the GitHub spice</h2>
+<h3 id="install-anaconda">Install Anaconda</h3>
 
-        <p>In addition to the changes in the previous section, certain references are auto-linked:</p>
+<h4 id="option-1-i-do-not-have-anaconda-installed">Option 1: I do not have Anaconda installed</h4>
 
-        <ul>
-          <li>SHA: be6a8cc1c1ecfe9489fb51e4869af15a13fc2cd2</li>
-          <li>User@SHA ref: <a href="https://github.com/mojombo/product/commit/be6a8cc1c1ecfe9489fb51e4869af15a13fc2cd2" class="commit-link">mojombo@<tt>be6a8cc</tt></a></li>
-          <li>User/Project@SHA: <a href="https://github.com/mojombo/god/commit/be6a8cc1c1ecfe9489fb51e4869af15a13fc2cd2" class="commit-link">mojombo/god@<tt>be6a8cc</tt></a></li>
-          <li>#Num: <a href="https://github.com/github/product/issues/1" class="issue-link" title="Baseline: What is up in the air right now?">#1</a></li>
-          <li>User/#Num: mojombo#1</li>
-          <li>User/Project#Num: <a href="https://github.com/mojombo/god/issues/1" class="issue-link" title="The server is not available (or you do not have permissions to access it)">mojombo/god#1</a></li>
-        </ul>
+<p>For first time users and people not fully confident with using the command line, we advise to install Anaconda, by downloading and installing
+the Python 3.x version from <a href="https://www.anaconda.com/download/">https://www.anaconda.com/download/</a>. Recent computers will require the 64-Bit installer.</p>
 
-        <p>These are dangerous goodies though, and we need to make sure email addresses don't get mangled:</p>
+<p>For more detailed instructions to install Anaconda, check the <a href="https://docs.anaconda.com/anaconda/install/windows/">Windows</a>,
+<a href="https://docs.anaconda.com/anaconda/install/mac-os/">Mac</a> or <a href="https://docs.anaconda.com/anaconda/install/linux/">linux</a> installation tutorial.</p>
 
-        <p>My email addy is <a href="mailto:tom@github.com">tom@github.com</a>.</p>
+<p><strong>Note:</strong> When you are already familiar with the command line and Python environments you could opt to use Miniconda instead of Anaconda
+and download it from <a href="https://conda.io/miniconda.html">https://conda.io/miniconda.html</a>. The main difference is that Anaconda provides a graphical user interface (Anaconda navigator)
+and a whole lot of scientific packages (e.g <a href="https://docs.anaconda.com/anaconda/packages/py3.9_win-64/">https://docs.anaconda.com/anaconda/packages/py3.9_win-64/</a>) when installing, whereas for Miniconda
+the user needs to install all packages using the command line. On the other hand, Miniconda requires less disk space.</p>
 
-        <h2>Math is hard, let's go shopping</h2>
+<h4 id="option-2-i-have-installed-anaconda-earlier">Option 2: I have installed Anaconda earlier</h4>
 
-        <p>In first grade I learned that 5 &gt; 3 and 2 &lt; 7. Maybe some arrows. 1 -&gt; 2 -&gt; 3. 9 &lt;- 8 &lt;- 7.</p>
+<p>When you already have an installation of Anaconda, you have to make sure you are working with the most recent versions. As the course is
+developed for Python 3, make sure you have Anaconda3 (on Windows, check Start &gt; Programs &gt; Anaconda3). If not, reinstall Anaconda according
+to the previous section.</p>
 
-        <p>Triangles man! a^2 + b^2 = c^2</p>
+<p>Start the Anaconda Navigator program (for Windows users: Start &gt; Anaconda Navigator) and go to the Environments tab. You should see
+the <em>base (root) environment</em>, click the arrow next to it and click <code class="language-plaintext highlighter-rouge">Open terminal</code>, as shown in the following figure:</p>
 
-        <h2>We all like making lists</h2>
+<p><img src="/DS-python-data-analysis/static/img/navigator_terminal.png" alt="Navigator terminal" /></p>
 
-        <p>The above header should be an H2 tag. Now, for a list of fruits:</p>
+<p>Type following command + ENTER-button (make sure you have an internet connection):</p>
 
-        <ul>
-          <li>Red Apples</li>
-          <li>Purple Grapes</li>
-          <li>Green Kiwifruits</li>
-        </ul>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>conda update -n root conda
+</code></pre></div></div>
+<p>and respond with <em>Yes</em> by typing <code class="language-plaintext highlighter-rouge">y</code>. Packages should be updated after the completion of the command.</p>
 
-        <p>Let's get crazy:</p>
+<h3 id="setup-after-anaconda-installation">Setup after Anaconda installation</h3>
 
-        <ol>
-          <li>
-            <p>This is a list item with two paragraphs. Lorem ipsum dolor<br>
-            sit amet, consectetuer adipiscing elit. Aliquam hendrerit<br>
-            mi posuere lectus.</p>
+<p>As not all packages we will use in the course are provided by default as part of Anaconda, we have to add the package to Anaconda to get started.
+As a good practice, we will create a new <em>conda environment</em> to work with. This environment will contain the required packages on which this
+course depends.</p>
 
-            <p>Vestibulum enim wisi, viverra nec, fringilla in, laoreet<br>
-            vitae, risus. Donec sit amet nisl. Aliquam semper ipsum<br>
-            sit amet velit.</p>
-          </li>
-          <li><p>Suspendisse id sem consectetuer libero luctus adipiscing.</p></li>
-        </ol>
+<p>The packages used in the course are enlisted in
+an <a href="https://raw.githubusercontent.com/jorisvandenbossche/DS-python-data-analysis/main/environment.yml"><code class="language-plaintext highlighter-rouge">environment.yml</code> file</a>. The file looks as follows:</p>
 
-        <p>What about some code <strong>in</strong> a list? That's insane, right?</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>name: DS-python
+channels:
+- defaults
+- conda-forge
+dependencies:
+- python=3.9
+- ipython
+- jupyter
+- ...
+</code></pre></div></div>
 
-        <ol>
-          <li>
-            <p>In Ruby you can map like this:</p>
+<p>The file contains information on:</p>
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">name</code> is the name used for the environment</li>
+  <li><code class="language-plaintext highlighter-rouge">channels</code> to define where to download the packages from</li>
+  <li><code class="language-plaintext highlighter-rouge">dependencies</code> contains each of the packages</li>
+</ul>
 
-            <pre><code>['a', 'b'].map { |x| x.uppercase }</code></pre>
-          </li>
-          <li>
-            <p>In Rails, you can do a shortcut:</p>
+<p>To download the environment file, click to go to
+the <a href="https://raw.githubusercontent.com/jorisvandenbossche/DS-python-data-analysis/main/environment.yml">environment.yml</a> online. Once opened in the
+browser, right-click and save the file/page on your computer. The specific text depends on your browser (<code class="language-plaintext highlighter-rouge">Save page as...</code>, <code class="language-plaintext highlighter-rouge">Save as...</code>).</p>
 
-            <pre><code>['a', 'b'].map(&amp;:uppercase)</code></pre>
-          </li>
-        </ol>
+<p><strong>WARNING !</strong> Make sure you save the file as <code class="language-plaintext highlighter-rouge">environment.yml</code> instead of <code class="language-plaintext highlighter-rouge">environment.yml.txt</code> which, specifically on Windows operating system,
+might be the default option. To do so, choose for ‘save as type’ <em>All Files</em> instead of ‘Text Document’.</p>
 
-        <p>Some people seem to like definition lists</p>
+<p><img src="/DS-python-data-analysis/static/img/environment_save.png" alt="" /></p>
 
-        <dl>
-          <dt>Lower cost</dt>
-          <dd>The new version of this product costs significantly less than the previous one!</dd>
-          <dt>Easier to use</dt>
-          <dd>We've changed the product so that it's much easier to use!</dd>
-        </dl>
+<p>You will need the folder/directory containing the <code class="language-plaintext highlighter-rouge">environment.yml</code> file in the next step. Make sure you know where you stored the file on
+your computer, e.g. when stored in the folder <code class="language-plaintext highlighter-rouge">C:/Users/yourusername/Documents</code> you should see the file <code class="language-plaintext highlighter-rouge">environment.yml</code> in File Explorer
+in that directory.</p>
 
-        <h2>I am a robot</h2>
+<p>Next, start the Anaconda Navigator program (for windows users: Start &gt; Anaconda Navigator) and go to the Environments tab. You should see
+the <em>base (root) environment</em>, click the arrow next to it and click <code class="language-plaintext highlighter-rouge">Open terminal</code>, as shown in the following figure:</p>
 
-        <p>Maybe you want to print <code>robot</code> to the console 1000 times. Why not?</p>
+<p><img src="/DS-python-data-analysis/static/img/navigator_terminal.png" alt="Navigator terminal" /></p>
 
-        <pre><code>def robot_invasion
-  puts("robot " * 1000)
-end
-</code></pre>
+<p>Type following commands line by line + ENTER-button (make sure you have an internet connection):</p>
 
-        <p>You see, that was formatted as code because it's been indented by four spaces.</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>conda config --add channels conda-forge
+conda config --set channel_priority strict
+cd FOLDER_PATH_TO_ENVIRONMENT_FILE
+conda env create -f environment.yml
+</code></pre></div></div>
 
-        <p>How about we throw some angle braces and ampersands in there?</p>
+<p><strong>!</strong> <code class="language-plaintext highlighter-rouge">FOLDER_PATH_TO_ENVIRONMENT_FILE</code> should be replaced by the path to the folder containing the downloaded environment file. In the
+example earlier, this was <code class="language-plaintext highlighter-rouge">C:/Users/yourusername/Documents</code>, but make sure you use your specific folder (as seen in File Explorer).</p>
 
-        <pre><code>&lt;div class="footer"&gt;
-    &amp;copy; 2004 Foo Corporation
-&lt;/div&gt;
-</code></pre>
+<p>Respond with <em>Yes</em> by typing <code class="language-plaintext highlighter-rouge">y</code> when asked. Output will be printed and if no error occurs, you should have the environment configured
+with all packages installed.</p>
 
-        <h2>Set in stone</h2>
+<p><strong>Note:</strong> If you did use Miniconda instead, create the environment using the same commands/instructions in the terminal (make sure to
+do the <code class="language-plaintext highlighter-rouge">conda config ...</code> steps.).</p>
 
-        <p>Preformatted blocks are useful for ASCII art:</p>
+<p>When finished, keep the terminal window open (or reopen it). Execute the following commands to check your installation:</p>
 
-        <pre>             ,-.
-    ,     ,-.   ,-.
-   / \   (   )-(   )
-   \ |  ,.&gt;-(   )-&lt;
-    \|,' (   )-(   )
-     Y ___`-'   `-'
-     |/__/   `-'
-     |
-     |
-     |    -hrr-
-  ___|_____________
-</pre>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>conda activate DS-python
+ipython
+</code></pre></div></div>
 
-        <h2>Playing the blame game</h2>
+<p>Within the terminal, a Python session will be started in which you can start writing Python! Type the following command:</p>
 
-        <p>If you need to blame someone, the best way to do so is by quoting them:</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>import pandas
+import matplotlib
+</code></pre></div></div>
 
-        <blockquote>
-        <p>I, at any rate, am convinced that He does not throw dice.</p>
-        </blockquote>
+<p>If no message is returned, you’re all set! If a message (probably an error) returned, contact the instructors. Copy paste the message returned.</p>
 
-        <p>Or perhaps someone a little less eloquent:</p>
+<h2 id="2-first-day-of-the-course-getting-the-course-materials">2. (<em>first day of the course</em>) Getting the course materials</h2>
 
-        <blockquote>
-        <p>I wish you'd have given me this written question ahead of time so I<br>
-        could plan for it... I'm sure something will pop into my head here in<br>
-        the midst of this press conference, with all the pressure of trying to<br>
-        come up with answer, but it hadn't yet...</p>
+<h3 id="option-1-you-are-a-git-user">Option 1: You are a git user?</h3>
 
-        <p>I don't want to sound like<br>
-        I have made no mistakes. I'm confident I have. I just haven't - you<br>
-        just put me under the spot here, and maybe I'm not as quick on my feet<br>
-        as I should be in coming up with one.</p>
-        </blockquote>
+<p>As the course has been setup as a <a href="https://git-scm.com/">git</a> repository managed on <a href="https://github.com/jorisvandenbossche/DS-python-data-analysis">Github</a>,
+you can clone the entire course to your local machine. Use the command line to clone the repository and go into the course folder:</p>
 
-        <h2>Table for two</h2>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git clone https://github.com/jorisvandenbossche/DS-python-data-analysis.git
+cd DS-python-data-analysis
+</code></pre></div></div>
 
-        <table>
-          <tbody>
-        <tr>
-            <th>ID</th>
-        <th>Name</th>
-        <th>Rank</th>
-          </tr>
-          <tr>
-            <td>1</td>
-        <td>Tom Preston-Werner</td>
-        <td>Awesome</td>
-          </tr>
-          <tr>
-            <td>2</td>
-        <td>Albert Einstein</td>
-        <td>Nearly as awesome</td>
-          </tr>
-        </tbody>
-        </table>
+<p>In case you would prefer using Github Desktop,
+see <a href="https://help.github.com/desktop/guides/contributing-to-projects/cloning-a-repository-from-github-to-github-desktop/">this tutorial</a>.</p>
 
-        <h2>Crazy linking action</h2>
+<h3 id="option-2-you-are-not-a-git-user">Option 2: You are not a git user?</h3>
 
-        <p>I get 10 times more traffic from <a href="http://google.com/" title="Google">Google</a> than from<br>
-        <a href="http://search.yahoo.com/" title="Yahoo Search">Yahoo</a> or <a href="http://search.msn.com/" title="MSN Search">MSN</a>.</p>
+<p>To download the repository to your local machine as a zip-file, click the  <code class="language-plaintext highlighter-rouge">download ZIP</code> on the
+repository page <a href="https://github.com/jorisvandenbossche/DS-python-data-analysis">https://github.com/jorisvandenbossche/DS-python-data-analysis</a> (green button “Code”):</p>
+
+<p><img src="/DS-python-data-analysis/static/img/download-button.png" alt="Download button" /></p>
+
+<p>After the download, unzip on the location you prefer within your user account (e.g. <code class="language-plaintext highlighter-rouge">My Documents</code>, not <code class="language-plaintext highlighter-rouge">C:\</code>).</p>
+
+<p><strong>Note:</strong> Make sure you know where you stored the course material, e.g. <code class="language-plaintext highlighter-rouge">C:/Users/yourusername/Documents/DS-python-data-analysis</code></p>
+
+<h2 id="3-first-day-of-the-course-test-your-configuration">3. (<em>first day of the course</em>) Test your configuration</h2>
+
+<p>To check if your packages are properly installed, open the Conda Terminal again (see above) and navigate to the course directory:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>cd FOLDER_PATH_TO_COURSE_MATERIAL
+</code></pre></div></div>
+
+<p>With <code class="language-plaintext highlighter-rouge">FOLDER_PATH_TO_COURSE_MATERIAL</code> replaced by the path to the folder with the downloaded
+course material (e.g. in the example it is <code class="language-plaintext highlighter-rouge">C:/Users/yourusername/Documents/DS-python-data-analysis</code>).</p>
+
+<p>Activate the newly created conda environment:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>conda activate DS-python
+</code></pre></div></div>
+
+<p>Then, run the <code class="language-plaintext highlighter-rouge">check_environment.py</code> script:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>python check_environment.py
+</code></pre></div></div>
+
+<p>When all checkmarks are ok, you’re ready to go!</p>
+
+<h2 id="4start-of-day-during-course--starting-jupyter-notebook-with-jupyter-lab">4.(<em>start of day during course</em>)  Starting Jupyter Notebook with Jupyter Lab</h2>
+
+<p>Each of the course modules is set up as a <a href="http://jupyter.org/">Jupyter notebook</a>, an interactive  environment to write and run code. It is
+no problem if you never used jupyter notebooks before as an introduction to notebooks is part of the course.</p>
+
+<h3 id="option-1-using-the-command-line">Option 1: Using the command line</h3>
+
+<ul>
+  <li>
+    <p>In the terminal, navigate to the <code class="language-plaintext highlighter-rouge">DS-python-data-analysis</code> directory (downloaded or cloned in the previous section)</p>
+  </li>
+  <li>
+    <p>Ensure that the correct environment is activated.</p>
+
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>conda activate DS-python
+</code></pre></div>    </div>
+  </li>
+  <li>
+    <p>Start a jupyter notebook server by typing</p>
+
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>jupyter lab
+</code></pre></div>    </div>
+  </li>
+</ul>
+
+<h3 id="option-2-using-anaconda-navigator">Option 2: Using Anaconda Navigator</h3>
+
+<p>In the Anaconda Navigator <em>Home</em> tab, first switch to the course environment, called <code class="language-plaintext highlighter-rouge">DS-python</code> in the selection bar. Next,
+select the Launch button under the Jupyter Lab icon:</p>
+
+<p><img src="/DS-python-data-analysis/static/img/navigator_notebook.png" alt="Navigator terminal" /></p>
+
+<h2 id="next">Next?</h2>
+
+<p>This will open a browser window automatically. Navigate to the course directory (if not already there) and choose the <code class="language-plaintext highlighter-rouge">notebooks</code> folder to
+access the individual notebooks containing the course material.</p>
+
+
       </section>
       <footer>
+        
         <p>This project is maintained by <a href="https://github.com/jorisvandenbossche">jorisvandenbossche</a></p>
+        
         <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
       </footer>
     </div>
-    <script src="javascripts/scale.fix.js"></script>
+    <script src="/DS-python-data-analysis/assets/js/scale.fix.js"></script>
   </body>
 </html>

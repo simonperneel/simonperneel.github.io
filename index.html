@@ -76,15 +76,13 @@
 
 <p>In the following sections, more details are provided for each of these steps. When all three are done, you are ready to start coding!</p>
 
-<h2 id="1-before-the-course-install-python-and-the-required-python-packages">1. (<em>before the course</em>) Install Python and the required Python packages</h2>
-
+<h2 id="1-before-the-course-install-python-and-the-required-python-packages">1. Install Python and the required Python packages</h2>
+w
 <p>For scientific and data analysis, we recommend to use Anaconda (or Miniconda) (<a href="https://www.anaconda.com/download/">https://www.anaconda.com/download/</a>), which provides a Python
 distribution that includes the scientific libraries (this recommendation applies to all platforms, so for both Windows, Linux and Mac),
-instead of installing Python as such. After installation, proceed with the setup.</p>
+instead of installing Python as such. Normally, anaconda should already be installed on the computers in the lab.</p>
 
 <h3 id="install-anaconda">Install Anaconda</h3>
-
-<h4 id="option-1-i-do-not-have-anaconda-installed">Option 1: I do not have Anaconda installed</h4>
 
 <p>For first time users and people not fully confident with using the command line, we advise to install Anaconda, by downloading and installing
 the Python 3.x version from <a href="https://www.anaconda.com/download/">https://www.anaconda.com/download/</a>. Recent computers will require the 64-Bit installer.</p>
@@ -96,23 +94,6 @@ the Python 3.x version from <a href="https://www.anaconda.com/download/">https:/
 and download it from <a href="https://conda.io/miniconda.html">https://conda.io/miniconda.html</a>. The main difference is that Anaconda provides a graphical user interface (Anaconda navigator)
 and a whole lot of scientific packages (e.g <a href="https://docs.anaconda.com/anaconda/packages/py3.9_win-64/">https://docs.anaconda.com/anaconda/packages/py3.9_win-64/</a>) when installing, whereas for Miniconda
 the user needs to install all packages using the command line. On the other hand, Miniconda requires less disk space.</p>
-
-<h4 id="option-2-i-have-installed-anaconda-earlier">Option 2: I have installed Anaconda earlier</h4>
-
-<p>When you already have an installation of Anaconda, you have to make sure you are working with the most recent versions. As the course is
-developed for Python 3, make sure you have Anaconda3 (on Windows, check Start &gt; Programs &gt; Anaconda3). If not, reinstall Anaconda according
-to the previous section.</p>
-
-<p>Start the Anaconda Navigator program (for Windows users: Start &gt; Anaconda Navigator) and go to the Environments tab. You should see
-the <em>base (root) environment</em>, click the arrow next to it and click <code class="language-plaintext highlighter-rouge">Open terminal</code>, as shown in the following figure:</p>
-
-<p><img src="/DS-python-data-analysis/static/img/navigator_terminal.png" alt="Navigator terminal" /></p>
-
-<p>Type following command + ENTER-button (make sure you have an internet connection):</p>
-
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>conda update -n root conda
-</code></pre></div></div>
-<p>and respond with <em>Yes</em> by typing <code class="language-plaintext highlighter-rouge">y</code>. Packages should be updated after the completion of the command.</p>
 
 <h3 id="setup-after-anaconda-installation">Setup after Anaconda installation</h3>
 
@@ -141,17 +122,11 @@ dependencies:
   <li><code class="language-plaintext highlighter-rouge">dependencies</code> contains each of the packages</li>
 </ul>
 
-<p>To download the environment file, click to go to
-the <a href="https://raw.githubusercontent.com/jorisvandenbossche/DS-python-data-analysis/main/environment.yml">environment.yml</a> online. Once opened in the
-browser, right-click and save the file/page on your computer. The specific text depends on your browser (<code class="language-plaintext highlighter-rouge">Save page as...</code>, <code class="language-plaintext highlighter-rouge">Save as...</code>).</p>
-
-<p><strong>WARNING !</strong> Make sure you save the file as <code class="language-plaintext highlighter-rouge">environment.yml</code> instead of <code class="language-plaintext highlighter-rouge">environment.yml.txt</code> which, specifically on Windows operating system,
-might be the default option. To do so, choose for ‘save as type’ <em>All Files</em> instead of ‘Text Document’.</p>
+The environment.yml file is included in with the project files that you downloaded. 
 
 <p><img src="/DS-python-data-analysis/static/img/environment_save.png" alt="" /></p>
 
-<p>You will need the folder/directory containing the <code class="language-plaintext highlighter-rouge">environment.yml</code> file in the next step. Make sure you know where you stored the file on
-your computer, e.g. when stored in the folder <code class="language-plaintext highlighter-rouge">C:/Users/yourusername/Documents</code> you should see the file <code class="language-plaintext highlighter-rouge">environment.yml</code> in File Explorer
+Make sure you know where you stored the file on your computer, e.g. when stored in the folder <code class="language-plaintext highlighter-rouge">C:/Users/yourusername/Documents</code> you should see the file <code class="language-plaintext highlighter-rouge">environment.yml</code> in File Explorer
 in that directory.</p>
 
 <p>Next, start the Anaconda Navigator program (for windows users: Start &gt; Anaconda Navigator) and go to the Environments tab. You should see

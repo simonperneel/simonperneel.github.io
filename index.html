@@ -12,8 +12,8 @@
 <meta property="og:locale" content="en_US" />
 <meta name="description" content="Specialist course Doctoral schools of Ghent University" />
 <meta property="og:description" content="Specialist course Doctoral schools of Ghent University" />
-<link rel="canonical" href="https://jorisvandenbossche.github.io/DS-python-data-analysis/setup.html" />
-<meta property="og:url" content="https://jorisvandenbossche.github.io/DS-python-data-analysis/setup.html" />
+<link rel="canonical" href="https://simonperneel.github.io/DS-python-data-analysis/setup.html" />
+<meta property="og:url" content="https://simonperneel.github.io/DS-python-data-analysis/setup.html" />
 <meta property="og:site_name" content="Data manipulation, analysis and visualisation in Python" />
 <meta property="og:type" content="website" />
 <meta name="twitter:card" content="summary" />
@@ -45,7 +45,7 @@
 
         
 
-        <p>Workshop UWC</p>
+        <p>Workshop UWC - Simon Perneel</p>
 
         
         <p class="view"><a href="https://github.com/simonperneel/DS-python-data-analysis">View the Project on GitHub <small>https://github.com/simonperneel/DS-python-data-analysis</small></a></p>
@@ -77,10 +77,9 @@
 <p>In the following sections, more details are provided for each of these steps. When all three are done, you are ready to start coding!</p>
 
 <h2 id="1-before-the-course-install-python-and-the-required-python-packages">1. Install Python and the required Python packages</h2>
-w
 <p>For scientific and data analysis, we recommend to use Anaconda (or Miniconda) (<a href="https://www.anaconda.com/download/">https://www.anaconda.com/download/</a>), which provides a Python
 distribution that includes the scientific libraries (this recommendation applies to all platforms, so for both Windows, Linux and Mac),
-instead of installing Python as such. Normally, anaconda should already be installed on the computers in the lab.</p>
+instead of installing Python as such. <br> Normally, Anaconda should already be installed on the computers in the lab </br>.</p>
 
 <h3 id="install-anaconda">Install Anaconda</h3>
 
@@ -102,7 +101,7 @@ As a good practice, we will create a new <em>conda environment</em> to work with
 course depends.</p>
 
 <p>The packages used in the course are enlisted in
-an <a href="https://raw.githubusercontent.com/jorisvandenbossche/DS-python-data-analysis/main/environment.yml"><code class="language-plaintext highlighter-rouge">environment.yml</code> file</a>. The file looks as follows:</p>
+an <a href="https://github.com/simonperneel/DS-python-data-analysis/blob/e6220fc40260c4e2649ed70c30f05927f421a13e/environment.yml"><code class="language-plaintext highlighter-rouge">environment.yml</code> file</a>. The file looks as follows:</p>
 
 <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>name: DS-python
 channels:
@@ -165,14 +164,14 @@ import matplotlib
 
 <p>If no message is returned, you’re all set! If a message (probably an error) returned, contact the instructors. Copy paste the message returned.</p>
 
-<h2 id="2-first-day-of-the-course-getting-the-course-materials">2. (<em>first day of the course</em>) Getting the course materials</h2>
+<h2 id="2-first-day-of-the-course-getting-the-course-materials">2. Getting the course materials</h2>
 
 <h3 id="option-1-you-are-a-git-user">Option 1: You are a git user?</h3>
 
-<p>As the course has been setup as a <a href="https://git-scm.com/">git</a> repository managed on <a href="https://github.com/jorisvandenbossche/DS-python-data-analysis">Github</a>,
+<p>As the course has been setup as a <a href="https://git-scm.com/">git</a> repository managed on <a href="https://github.com/simonperneel/DS-python-data-analysis">Github</a>,
 you can clone the entire course to your local machine. Use the command line to clone the repository and go into the course folder:</p>
 
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git clone https://github.com/jorisvandenbossche/DS-python-data-analysis.git
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git clone https://github.com/simonperneel/DS-python-data-analysis.git
 cd DS-python-data-analysis
 </code></pre></div></div>
 
@@ -182,7 +181,7 @@ see <a href="https://help.github.com/desktop/guides/contributing-to-projects/clo
 <h3 id="option-2-you-are-not-a-git-user">Option 2: You are not a git user?</h3>
 
 <p>To download the repository to your local machine as a zip-file, click the  <code class="language-plaintext highlighter-rouge">download ZIP</code> on the
-repository page <a href="https://github.com/jorisvandenbossche/DS-python-data-analysis">https://github.com/jorisvandenbossche/DS-python-data-analysis</a> (green button “Code”):</p>
+repository page <a href="https://github.com/simonperneel/DS-python-data-analysis">https://github.com/simonperneel/DS-python-data-analysis</a> (green button “Code”):</p>
 
 <p><img src="/img/download-button.png" alt="Download button" /></p>
 
@@ -190,7 +189,7 @@ repository page <a href="https://github.com/jorisvandenbossche/DS-python-data-an
 
 <p><strong>Note:</strong> Make sure you know where you stored the course material, e.g. <code class="language-plaintext highlighter-rouge">C:/Users/yourusername/Documents/DS-python-data-analysis</code></p>
 
-<h2 id="3-first-day-of-the-course-test-your-configuration">3. (<em>first day of the course</em>) Test your configuration</h2>
+<h2 id="3-first-day-of-the-course-test-your-configuration">3. Test your configuration</h2>
 
 <p>To check if your packages are properly installed, open the Conda Terminal again (see above) and navigate to the course directory:</p>
 
@@ -212,32 +211,13 @@ course material (e.g. in the example it is <code class="language-plaintext highl
 
 <p>When all checkmarks are ok, you’re ready to go!</p>
 
-<h2 id="4start-of-day-during-course--starting-jupyter-notebook-with-jupyter-lab">4.(<em>start of day during course</em>)  Starting Jupyter Notebook with Jupyter Lab</h2>
+<h2 id="4start-of-day-during-course--starting-jupyter-notebook-with-jupyter-lab">4. Starting Jupyter Notebook with Jupyter Lab</h2>
 
 <p>Each of the course modules is set up as a <a href="http://jupyter.org/">Jupyter notebook</a>, an interactive  environment to write and run code. It is
 no problem if you never used jupyter notebooks before as an introduction to notebooks is part of the course.</p>
 
-<h3 id="option-1-using-the-command-line">Option 1: Using the command line</h3>
 
-<ul>
-  <li>
-    <p>In the terminal, navigate to the <code class="language-plaintext highlighter-rouge">DS-python-data-analysis</code> directory (downloaded or cloned in the previous section)</p>
-  </li>
-  <li>
-    <p>Ensure that the correct environment is activated.</p>
-
-    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>conda activate DS-python
-</code></pre></div>    </div>
-  </li>
-  <li>
-    <p>Start a jupyter notebook server by typing</p>
-
-    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>jupyter lab
-</code></pre></div>    </div>
-  </li>
-</ul>
-
-<h3 id="option-2-using-anaconda-navigator">Option 2: Using Anaconda Navigator</h3>
+<h3 id="option-2-using-anaconda-navigator">Using Anaconda Navigator</h3>
 
 <p>In the Anaconda Navigator <em>Home</em> tab, first switch to the course environment, called <code class="language-plaintext highlighter-rouge">DS-python</code> in the selection bar. Next,
 select the Launch button under the Jupyter Lab icon:</p>

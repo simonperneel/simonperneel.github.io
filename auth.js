@@ -1,5 +1,4 @@
 document.getElementById('authButton').addEventListener('click', function() {
-    // Replace <REQUEST_TOKEN> with your actual request token
     window.location.href = `https://connect.garmin.com/oauthConfirm?oauth_token=1a6c0e23-8a06-4288-aa4f-36ef52611c24`
 });
 

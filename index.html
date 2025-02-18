@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Garmin OAuth Authentication</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to our study!</h1>
+        <button id="authButton">Authenticate with Garmin</button>
+        <div id="confirmation" class="hidden">
+            <h2>Authentication Successful</h2>
+            <p>OAuth Token: <span id="oauthToken"></span></p>
+            <p>OAuth Token Secret: <span id="oauthTokenSecret"></span></p>
+        </div>
+    </div>
+    <script src="auth.js"></script>
+</body>
+</html>
